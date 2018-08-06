@@ -1,12 +1,8 @@
-from os import sys,environ
-
-sys.path.append("..")
-
 from telegram.ext import Filters
 from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove)
-from BotMother.BotConstructor import BotConstructor
-from BotMother.Blueprint import Blueprint
-from BotMother.Conversation import Conversation
+from botmother.BotConstructor import BotConstructor
+from botmother.Blueprint import Blueprint
+from botmother.Conversation import Conversation
 
 """
 This test shows how to construct a conversation with the bot.
